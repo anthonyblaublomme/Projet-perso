@@ -1,24 +1,53 @@
 body {
-    background-color: rgb(108, 145, 215);
+    background: linear-gradient(#918de8, #9ed8f0);
+    font-family: sans-serif;
 }
 
 .container-global {
     width: 90%;
     background-color: azure;
-    margin: 50px auto;
+    margin: 80px auto;
     border: solid 2px gray;
 }
 
 nav {
     text-decoration: none;
     display: flex;
-    gap: 17.5rem;
+    gap: 12.5rem;
+    align-self: baseline;
 }
 
+nav ul button {
+    border-radius: 10px;
+    background-color: blueviolet;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    margin-top: 1px;
+    
+}
 li {
     list-style-type: none;
     display:inline-flex ;
+    padding-right: 5px;
+    font-size: 12px;
+    margin-top: 20px;
+}
  
+
+nav ul li img{
+    width : 25px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+
+
+.logo {
+    font-size: 2em;
 }
 
 .container {
@@ -30,21 +59,107 @@ li {
 .container-left {
     width: 50%;
     margin-left: 50px;
+    
+    
+}
+
+.header-left {
+    display: inline-flex;
+    flex: space-between;
+    gap: 1rem;
+}
+
+
+
+article {
+    font-size: 42px;
+    width: 310px;
+    padding-bottom: 18px;
+}
+
+.sous-article {
+    font-size: 10px;
+    width: 310px;
+    color: gray;
+    padding-bottom: 100px;
+}
+
+.bg-color {
+    background-color: rgb(158, 227, 237);
+    padding-right: 30px;
+    font-weight: bold;
+}
+
+.header-left img {
+    width: 40px;
+    display: flex;
+    align-self: baseline;
+}
+
+.header-left p {
+    font-size: 13px;
+}
+
+span {
+    font-weight: bold;
+}
+.mins-ago {
+    color: rgb(215, 149, 43);
+}
+
+.violet {
+    border-radius: 10px;
+    background-color: blueviolet;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    margin-top: 1px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.blue {
+    border-radius: 10px;
+    background-color: rgb(48, 218, 224);
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .members {
     display: inline-flex;
+    justify-content: space-between;
+    gap: 2.8rem;
+    margin-top: 50px;
+}
+
+.span-violet {
+    color: blueviolet;
 }
 
 .container-right {
     width: 50%;
     margin-right: 50px;
+    background: url(../Projet-perso/img/fonddroite.jpg);
+    overflow: visible;
 }
 
 .card {
     display: flex;
     gap: 2.5rem;
+    width: 100%;
 }
 .container-card {
     flex-wrap: wrap;
+   
 }
