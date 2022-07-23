@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(108, 145, 215);
+}
+
+.container-global {
+    width: 90%;
+    background-color: azure;
+    margin: 50px auto;
+    border: solid 2px gray;
+}
+
+nav {
+    text-decoration: none;
+    display: flex;
+    gap: 17.5rem;
+}
+
+li {
+    list-style-type: none;
+    display:inline-flex ;
+ 
+}
+
+.container {
+    display: flex;
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.container-left {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.members {
+    display: inline-flex;
+}
+
+.container-right {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.card {
+    display: flex;
+    gap: 2.5rem;
+}
+.container-card {
+    flex-wrap: wrap;
+}
