@@ -152,6 +152,7 @@ span {
     margin-right: 50px;
     background: url(../Projet-perso/img/fonddroite.jpg);
     overflow: visible;
+    padding-top: 70px;
 }
 
 .card {
@@ -162,4 +163,16 @@ span {
 .container-card {
     flex-wrap: wrap;
    
+}
+
+.card-left {
+    width: 50%;
+    text-align: center;
+    background-color: white;
+    background-size: 200px 100px;
+}
+
+.card-right {
+    width: 50%;
+    text-align: center;
 }
